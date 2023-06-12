@@ -1,0 +1,474 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+    background-color: white /* #FFF0F5;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-family: Montserrat, cursive;
+}
+
+.primary_header {
+	overflow: hidden;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: -10px;
+    padding-left: 0px;
+}
+
+.primary_header li {
+		 list-style: none;	
+}
+
+.box1 {
+    float: left;
+    width: 15%;
+	padding: 14px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    clear: left;	
+}
+
+.s_header {
+	display: flex; /* 가로로 정렬 */
+	float: right;
+    width: 60%;
+	padding: 25px 20px;
+    margin-left: auto;
+    margin-right: 5px;
+    align-items: center;
+    clear: none;
+	
+}
+
+.s_header ul {
+	display: flex; 
+	margin-top: 5%;
+	margin-right: 0px;
+	margin-bottom: 2%;
+	margin-left: 0px;
+	padding-top: 0%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+	padding-left: 8%;
+	height: auto;
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+
+.s_header ul li {
+	display: flex;
+    float: left;
+	margin-left: 95px;
+    margin-right: 3px;
+    margin-top: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 20%;
+    list-style: none;
+    transition: all 0.3s linear 0s;
+	
+}
+
+.menu_ a:hover {
+	color: #ff88af;
+	cursor: pointer;
+}
+
+.menu_ a {
+    color: rgba(247,185,203,1.00);
+    text-align: center;
+    text-decoration: none;
+}
+
+.princess {
+    height: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    clear: both;
+
+}
+
+.img {
+    height: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    clear: both;
+
+}
+.container .left_article h3 {
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 0px;
+    padding-left: 41%;
+    color: #ff7398;
+    font-family: Snell Roundhand;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+	align-items: center;
+    letter-spacing: inherit;
+	transition: all 0.3s linear 0s;
+}
+
+.bg-imageA {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin-bottom: -5000px;
+	z-index: 0;
+	opacity: 1;
+	background-attachment: fixed;	
+}
+
+.music {
+	float: left;
+	width: 50%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	margin-top: -380px;
+	margin-left: 330px;
+	z-index: 1;
+	opacity: 4;
+	background-attachment: fixed;	
+}
+
+* {margin: 0; padding: 0;}
+.boxA {                      /* 배경 */
+    width: 100%;
+    height: 800px;
+    background-image: url('');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.boxA .CD {                   /* zip */
+    margin-top: 30%;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: none;
+    z-index: 1;
+}
+.cd_ img {width: 100%;}
+
+.boxA .CD .cd01 {          /* CD */
+    margin-top: 60px;
+    position: absolute;
+    bottom: 1%;
+    left: 70%;
+    width: 100%;
+	height: 100%;
+    text-align: center;
+    box-shadow: none;
+    z-index: -1;
+	animation: cd-slide-rotate 10s linear infinite;
+	
+}
+	.boxA .CD .cd__ {
+  position: absolute;
+  z-index: 1;
+}
+.cd-rotate {
+    animation: cd-rotate 20s linear infinite;
+}
+
+@keyframes cd-slide-rotate {
+  0% {
+    left: -15%;
+    transform: translate(0%, 0%) rotate(0);
+  }
+  50% {
+    left:90%;
+    transform: translate(0%, 0%) rotate(0);
+  }
+  100% {
+    left: 90%;
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+}
+	
+.audio {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    z-index: 3;
+    position: relative;
+    top: 100%;
+    transform: translateY(-600%);
+}
+
+@media (min-width: 390px) and (max-width: 415px){
+.box1 {
+    float: left;
+    width: 25%;
+	padding: 14px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    clear: left;
+
+}
+.img {
+    height: 100%;
+    width: 80%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    clear: both;
+}
+	
+	
+.s_header {
+	display: flex;
+	width: 50%;
+}
+	
+.s_header ul {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 0%;
+	padding-bottom: 5%;
+	margin-top: -2px;
+	margin-left: -20px;
+	margin-right: 0px;
+
+	}
+	
+.s_header ul li {
+	font-size: 100%;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	margin-left: -5px;
+	margin-right: 10px;
+	width: 100%;
+
+	}
+	
+.container .left_article h3 {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-left: 30%;
+    color: #ff7398;
+    font-family: Snell Roundhand;
+    font-size: 20px;
+    text-align: center;
+	align-items: center;
+	letter-spacing: inherit;
+	transition: all 0.3s linear 0s;
+}
+    .boxA .CD {
+    position: absolute;
+    width: 80%;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: none;
+    z-index: 1;		
+}
+	.boxA .CD .cd01 {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    bottom: 4%;
+    z-index: -1;
+		
+}
+
+.audio {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    z-index: 3;
+    position: relative;
+    top: 100%;
+    transform: translateY(-650%);
+}
+.music {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	margin-top: -360px;
+	margin-left: 0px;
+	z-index: 1;
+	opacity: 1;
+	background-attachment: fixed;
+	
+	
+}
+}
+
+    @media (min-width: 416px) and (max-width: 768px) {
+.box1 {
+    float: left;
+    width: 25%;
+	padding: 14px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    clear: left;
+}
+.img {
+    height: 100%;
+    width: 80%;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    clear: both;
+}
+	
+	
+.s_header {
+	width: 50%;
+	display: flex;
+	
+}
+.s_header ul {
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 0%;
+	padding-right: 4%;
+	padding-bottom: 0%;
+	margin-right: 2px;
+	text-align: center;
+    list-style: none;
+	display: flex;
+	}
+	
+.s_header ul li {
+	font-size: 40%;
+	padding-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	margin-left: 17px;
+	width: auto;
+	display: flex;
+	}
+	
+.container .left_article h3 {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	padding-left: 35%;
+    color: #ff7398;
+    font-family: Snell Roundhand;
+    font-size: 22px;
+    text-align: center;
+	align-items: center;
+	letter-spacing: inherit;
+	transition: all 0.3s linear 0s;
+}
+
+.boxA .CD {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.boxA .CD .cd01 {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    bottom: 4%;
+    z-index: -1;
+}
+.music {
+	float: left;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	margin-top: -330px;
+	margin-left: 0px;
+	z-index: 1;
+	opacity: 1;
+	background-attachment: fixed;
+	
+	
+}
+}
+
+@keyframes cd-slide-rotate {
+  0% {
+    left: 10%;
+    transform: translate(0%, 0%) rotate(0);
+  }
+  50% {
+    left: 55%;
+    transform: translate(0%, 0%) rotate(0);
+  }
+  100% {
+    left: 55%;
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+}
+	.audio {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: -20px;
+}
+	
+    @media (min-width: 769px) and (max-width: 1000px) {
+	
+ .s_header {
+	display: flex;
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 65%;
+}
+
+.s_header ul li {
+	margin-top: -10px;
+	margin-right: 0%;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	display: flex;
+	width: 90%;
+}
+
+.left_article h3{
+	display: flex;
+	
+}
+}
